@@ -113,10 +113,12 @@ Editor.defaultConfig = {
 	language: 'pt-br',
 	image: {
 		toolbar: [
-			'imageTextAlternative',
 			'imageStyle:inline',
+			'imageStyle:alignLeft',
+			'imageStyle:alignRight',
+			'imageStyle:alignBlockLeft',
 			'imageStyle:block',
-			'imageStyle:side'
+			'imageStyle:alignBlockRight'
 		]
 	},
 	table: {
